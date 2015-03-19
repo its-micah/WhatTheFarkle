@@ -10,18 +10,25 @@
 
 
 
+
 @implementation DieLabel
 
 
+
+
+
+
 - (IBAction)onTapped:(UITapGestureRecognizer *)sender {
-    [self.delegate roll];
+    [self.delegate labelTapped:sender];
 }
 
 
 - (void)roll {
-    int random = arc4random_uniform(6);
-    //label.text = [NSString stringWithFormat:@"%i", random];
     //[self.delegate roll];
+
+    int random = arc4random_uniform(6) +1;
+    self.text = [NSString stringWithFormat:@"%i",random];
+
 
 }
 

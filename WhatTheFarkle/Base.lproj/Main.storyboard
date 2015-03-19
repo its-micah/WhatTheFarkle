@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
@@ -139,12 +139,12 @@
                         </variation>
                     </view>
                     <connections>
-                        <outletCollection property="labels" destination="ew6-gp-z60" id="rRf-vf-aq8"/>
-                        <outletCollection property="labels" destination="oCA-eE-qH1" id="fM6-3k-4Zx"/>
-                        <outletCollection property="labels" destination="wao-L9-g3M" id="feI-zf-gRg"/>
                         <outletCollection property="labels" destination="KJr-WB-h69" id="0vx-Oc-s4o"/>
                         <outletCollection property="labels" destination="Uf0-CG-WGV" id="MtN-2H-1dU"/>
                         <outletCollection property="labels" destination="9sq-x3-Wvi" id="jrk-zs-LLr"/>
+                        <outletCollection property="labels" destination="ew6-gp-z60" id="UKb-DQ-ngI"/>
+                        <outletCollection property="labels" destination="oCA-eE-qH1" id="oXT-V8-57X"/>
+                        <outletCollection property="labels" destination="wao-L9-g3M" id="ma1-yq-FWM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
