@@ -19,6 +19,7 @@
 @interface DieLabel : UILabel
 
 @property (nonatomic, assign) id <DieLabelDelegate> delegate;
+
 - (void)roll;
 
 

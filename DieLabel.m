@@ -7,15 +7,11 @@
 //
 
 #import "DieLabel.h"
-
+#import "ViewController.h"
 
 
 
 @implementation DieLabel
-
-
-
-
 
 
 - (IBAction)onTapped:(UITapGestureRecognizer *)sender {
@@ -24,12 +20,8 @@
 
 
 - (void)roll {
-    //[self.delegate roll];
-
     int random = arc4random_uniform(6) +1;
     self.text = [NSString stringWithFormat:@"%i",random];
-
-
 }
 
 

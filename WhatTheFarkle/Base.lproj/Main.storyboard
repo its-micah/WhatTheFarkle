@@ -139,19 +139,18 @@
                         </variation>
                     </view>
                     <connections>
-                        <outletCollection property="labels" destination="KJr-WB-h69" id="0vx-Oc-s4o"/>
-                        <outletCollection property="labels" destination="Uf0-CG-WGV" id="MtN-2H-1dU"/>
-                        <outletCollection property="labels" destination="9sq-x3-Wvi" id="jrk-zs-LLr"/>
-                        <outletCollection property="labels" destination="ew6-gp-z60" id="UKb-DQ-ngI"/>
-                        <outletCollection property="labels" destination="oCA-eE-qH1" id="oXT-V8-57X"/>
-                        <outletCollection property="labels" destination="wao-L9-g3M" id="ma1-yq-FWM"/>
+                        <outletCollection property="labels" destination="KJr-WB-h69" collectionClass="NSMutableArray" id="0vx-Oc-s4o"/>
+                        <outletCollection property="labels" destination="Uf0-CG-WGV" collectionClass="NSMutableArray" id="MtN-2H-1dU"/>
+                        <outletCollection property="labels" destination="9sq-x3-Wvi" collectionClass="NSMutableArray" id="jrk-zs-LLr"/>
+                        <outletCollection property="labels" destination="ew6-gp-z60" collectionClass="NSMutableArray" id="UKb-DQ-ngI"/>
+                        <outletCollection property="labels" destination="oCA-eE-qH1" collectionClass="NSMutableArray" id="oXT-V8-57X"/>
+                        <outletCollection property="labels" destination="wao-L9-g3M" collectionClass="NSMutableArray" id="ma1-yq-FWM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="B8V-SG-h4U" userLabel="Tap Gesture Recognizer(1)">
                     <connections>
                         <action selector="onTapped:" destination="ew6-gp-z60" id="e4E-dc-f4Q"/>
-                        <outlet property="delegate" destination="vXZ-lx-hvc" id="ibC-ur-YEd"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="bLZ-2N-dUs" userLabel="Tap Gesture Recognizer(2)">
