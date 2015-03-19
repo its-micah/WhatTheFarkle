@@ -14,6 +14,7 @@
 		C7A5A5F71ABB4ED1007278F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A5A5F61ABB4ED1007278F7 /* Images.xcassets */; };
 		C7A5A5FA1ABB4ED1007278F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A5A5F81ABB4ED1007278F7 /* LaunchScreen.xib */; };
 		C7A5A6061ABB4ED1007278F7 /* WhatTheFarkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5A6051ABB4ED1007278F7 /* WhatTheFarkleTests.m */; };
+		C7A5A6111ABB5020007278F7 /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5A6101ABB5020007278F7 /* DieLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C7A5A5FF1ABB4ED1007278F7 /* WhatTheFarkleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatTheFarkleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A5A6041ABB4ED1007278F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A5A6051ABB4ED1007278F7 /* WhatTheFarkleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatTheFarkleTests.m; sourceTree = "<group>"; };
+		C7A5A60F1ABB5020007278F7 /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DieLabel.h; path = ../DieLabel.h; sourceTree = "<group>"; };
+		C7A5A6101ABB5020007278F7 /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DieLabel.m; path = ../DieLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		C7A5A5E81ABB4ED1007278F7 /* WhatTheFarkle */ = {
 			isa = PBXGroup;
 			children = (
+				C7A5A60F1ABB5020007278F7 /* DieLabel.h */,
+				C7A5A6101ABB5020007278F7 /* DieLabel.m */,
 				C7A5A5ED1ABB4ED1007278F7 /* AppDelegate.h */,
 				C7A5A5EE1ABB4ED1007278F7 /* AppDelegate.m */,
 				C7A5A5F01ABB4ED1007278F7 /* ViewController.h */,
@@ -222,6 +227,7 @@
 				C7A5A5F21ABB4ED1007278F7 /* ViewController.m in Sources */,
 				C7A5A5EF1ABB4ED1007278F7 /* AppDelegate.m in Sources */,
 				C7A5A5EC1ABB4ED1007278F7 /* main.m in Sources */,
+				C7A5A6111ABB5020007278F7 /* DieLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
