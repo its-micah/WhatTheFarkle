@@ -8,6 +8,8 @@
 
 #import "DieLabel.h"
 
+
+
 @implementation DieLabel
 
 
@@ -17,8 +19,10 @@
 
 
 - (void)roll {
-    //int random = arc4random_uniform(6);
+    int random = arc4random_uniform(6);
     //label.text = [NSString stringWithFormat:@"%i", random];
+    //[self.delegate roll];
+
 }
 
 

@@ -84,10 +84,10 @@
 		C7A5A5E81ABB4ED1007278F7 /* WhatTheFarkle */ = {
 			isa = PBXGroup;
 			children = (
-				C7A5A60F1ABB5020007278F7 /* DieLabel.h */,
-				C7A5A6101ABB5020007278F7 /* DieLabel.m */,
 				C7A5A5ED1ABB4ED1007278F7 /* AppDelegate.h */,
 				C7A5A5EE1ABB4ED1007278F7 /* AppDelegate.m */,
+				C7A5A60F1ABB5020007278F7 /* DieLabel.h */,
+				C7A5A6101ABB5020007278F7 /* DieLabel.m */,
 				C7A5A5F01ABB4ED1007278F7 /* ViewController.h */,
 				C7A5A5F11ABB4ED1007278F7 /* ViewController.m */,
 				C7A5A5F31ABB4ED1007278F7 /* Main.storyboard */,
@@ -418,6 +418,7 @@
 				C7A5A60B1ABB4ED1007278F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A5A60C1ABB4ED1007278F7 /* Build configuration list for PBXNativeTarget "WhatTheFarkleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				C7A5A60E1ABB4ED1007278F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
