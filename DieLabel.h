@@ -12,7 +12,7 @@
 
 @optional
 
-- (void)labelTapped:(UITapGestureRecognizer *)gesture;
+- (void)selectDie:(id)die;
 
 @end
 

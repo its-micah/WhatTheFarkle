@@ -10,12 +10,12 @@
 #import "ViewController.h"
 
 
-
 @implementation DieLabel
 
 
 - (IBAction)onTapped:(UITapGestureRecognizer *)sender {
-    [self.delegate labelTapped:sender];
+    [self.delegate selectDie:self];
+    self.backgroundColor = [UIColor colorWithWhite:0.780 alpha:1.000];
 }
 
 

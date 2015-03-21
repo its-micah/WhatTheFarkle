@@ -113,8 +113,34 @@
                                     <action selector="onRollButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2sa-RV-KdF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xh9-72-Aqc">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="cN1-Zu-KCt"/>
+                                    <constraint firstAttribute="width" constant="105" id="dS3-K2-PwK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="cN1-Zu-KCt"/>
+                                        <exclude reference="dS3-K2-PwK"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="cN1-Zu-KCt"/>
+                                        <include reference="dS3-K2-PwK"/>
+                                    </mask>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xh9-72-Aqc" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="39" id="Kod-ye-5EN"/>
+                            <constraint firstAttribute="centerX" secondItem="Xh9-72-Aqc" secondAttribute="centerX" id="fFJ-xw-JYT"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="ew6-gp-z60"/>
@@ -124,6 +150,11 @@
                                 <exclude reference="Uf0-CG-WGV"/>
                                 <exclude reference="KJr-WB-h69"/>
                                 <exclude reference="EOI-j2-7yO"/>
+                                <exclude reference="Xh9-72-Aqc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Kod-ye-5EN"/>
+                                <exclude reference="fFJ-xw-JYT"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -135,10 +166,16 @@
                                 <include reference="Uf0-CG-WGV"/>
                                 <include reference="KJr-WB-h69"/>
                                 <include reference="EOI-j2-7yO"/>
+                                <include reference="Xh9-72-Aqc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Kod-ye-5EN"/>
+                                <include reference="fFJ-xw-JYT"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="userScore" destination="Xh9-72-Aqc" id="ujh-SS-fwi"/>
                         <outletCollection property="labels" destination="KJr-WB-h69" collectionClass="NSMutableArray" id="0vx-Oc-s4o"/>
                         <outletCollection property="labels" destination="Uf0-CG-WGV" collectionClass="NSMutableArray" id="MtN-2H-1dU"/>
                         <outletCollection property="labels" destination="9sq-x3-Wvi" collectionClass="NSMutableArray" id="jrk-zs-LLr"/>
