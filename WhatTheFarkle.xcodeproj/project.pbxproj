@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C79E43091ABDCEEC001DB6EA /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = C79E43081ABDCEEC001DB6EA /* ScoreKeeper.m */; };
 		C7A5A5EC1ABB4ED1007278F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5A5EB1ABB4ED1007278F7 /* main.m */; };
 		C7A5A5EF1ABB4ED1007278F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5A5EE1ABB4ED1007278F7 /* AppDelegate.m */; };
 		C7A5A5F21ABB4ED1007278F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5A5F11ABB4ED1007278F7 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C79E43071ABDCEEC001DB6EA /* ScoreKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreKeeper.h; path = ../ScoreKeeper.h; sourceTree = "<group>"; };
+		C79E43081ABDCEEC001DB6EA /* ScoreKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScoreKeeper.m; path = ../ScoreKeeper.m; sourceTree = "<group>"; };
 		C7A5A5E61ABB4ED1007278F7 /* WhatTheFarkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatTheFarkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A5A5EA1ABB4ED1007278F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A5A5EB1ABB4ED1007278F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 		C7A5A5E81ABB4ED1007278F7 /* WhatTheFarkle */ = {
 			isa = PBXGroup;
 			children = (
+				C79E43071ABDCEEC001DB6EA /* ScoreKeeper.h */,
+				C79E43081ABDCEEC001DB6EA /* ScoreKeeper.m */,
 				C7A5A5ED1ABB4ED1007278F7 /* AppDelegate.h */,
 				C7A5A5EE1ABB4ED1007278F7 /* AppDelegate.m */,
 				C7A5A60F1ABB5020007278F7 /* DieLabel.h */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79E43091ABDCEEC001DB6EA /* ScoreKeeper.m in Sources */,
 				C7A5A5F21ABB4ED1007278F7 /* ViewController.m in Sources */,
 				C7A5A5EF1ABB4ED1007278F7 /* AppDelegate.m in Sources */,
 				C7A5A5EC1ABB4ED1007278F7 /* main.m in Sources */,
